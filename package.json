@@ -8,7 +8,7 @@
   "license": "UNLICENSED",
   "scripts": {
     "prebuild": "rimraf dist",
-    "build": "nest build",
+    "build": "nest build && npm install",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "start": "node index",
     "start:dev": "nest start --watch",
